@@ -58,7 +58,7 @@ gender_pop <- dictionary(list(dict_gender = c("gender","mother", "transgender",
 # Check that dictionary is properly constructed
 is.dictionary(gender_pop)
 
-# Apply dictionary and convert to data frame! 
+# Apply dictionary and convert to data frame 
 gender_pop_dict <- dfm_lookup(camp_dfm, gender_pop)
 gender_pop_dict
 dict.df <- convert(gender_pop_dict, to = "data.frame")
