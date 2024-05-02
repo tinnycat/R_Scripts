@@ -169,9 +169,8 @@ PseudoR2(model6, "McFadden")
 stargazer(model6, title = "Regression Results", 
           type = "text")
 
-
 ### Output Workers' Rights Models
 stargazer(model4, model5, model6, title = "Worker Regression Results", 
-          type = "html", out = "C:results_worker.html") 
+          type = "html", out = "C:results_worker.html")  
 
 
