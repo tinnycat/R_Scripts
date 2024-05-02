@@ -1,2 +1,2 @@
 # R_Scripts
-Code examples 
+This respository contains several examples of R Scripts I have written as part of my research as a PhD student. 
