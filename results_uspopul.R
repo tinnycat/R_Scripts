@@ -86,7 +86,6 @@ p_values <- summary(model3)$coefficients[, 4]
 print(coefficients)
 print(p_values)
 
-
 ### Tables 
 stargazer(model1, model2,model3, type = "text")
 stargazer(model1, model2, model3, title = "Regression Results", 
